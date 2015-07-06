@@ -36,10 +36,8 @@ $whitelistMsg = $config->get("Whitelist-Message");
 public function onPlayerJoin(PlayerJoinEvent $event){
   $p = $event->getPlayer();
   $pn = $p->getName();
-    if($this->server->isWhitelisted(strtolower($p))){
-      return true;
-    }else{
-      $p->kick($whitelistMsg);
+    if($this->server->isWhitelisted(strtolower($p)) == false){
+    $p->kick($WhitelistMsg);
     }else{
       if(count($this->server->getOnlinePlayers()) > $this->server->getMaxPlayers()){ 
         $p->kick($fullMsg);
