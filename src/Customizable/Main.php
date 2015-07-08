@@ -18,7 +18,7 @@ class Main extends PluginBase implements Listener{
 public function onEnable(){
 $this->saveDefaultConfig();
 $config = $this->getConfig();
-$this->getServer()->getPluginManager->registerEvents($this, $this);
+$this->getServer()->getPluginManager()->registerEvents($this, $this);
 $this->getLogger()->info(TextFormat::BLUE."Customizable" . TextFormat::YELLOW . ": " . TextFormat::GREEN . "Enabled!");
 $this->getLogger()->info(TextFormat::BLUE."Customizable" . TextFormat::YELLOW . ": " . TextFormat::GREEN . "Created by ItzBulkDev");
 $whitelistMsg = $config->get("Whitelist-Message");
