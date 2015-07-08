@@ -1,10 +1,5 @@
-/*
-* This Plugin Was Created By:
-* ItzBulkDev
-*/
-
-//Message Displayed When Server Is Whitelisted:
+#Message Displayed When Server Is Whitelisted:
 Whitelisted-Message: "§4Server Is Whitelisted!\n§4Try To Join Later!"
 
-//Message Displayed When Server Is Full:
+#Message Displayed When Server Is Full:
 Server-Full-Message: "§4Server Is Full!\n§4You can buy §6VIP §4to\n§4Join When The Server Is Full"
