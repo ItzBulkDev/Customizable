@@ -30,7 +30,6 @@ public function onDisable(){
 $this->saveDefaultConfig();
 $this->getServer->info(TextFormat::BLUE."Customizable" . TextFormat::YELLOW . ": " . TextFormat::RED . "Disabled!");
 $this->getServer->info(TextFormat::BLUE."Customizable" . TextFormat::YELLOW . ": " . TextFormat::RED . "Created by ItzBulkDev");
-$whitelistMsg = $config->get("Whitelist-Message");
 }
 
 public function onPlayerJoin(PlayerJoinEvent $event){
