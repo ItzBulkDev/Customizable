@@ -1,2 +1,2 @@
-# Customizable
-Set server whitelisted and full messages
+# Randomize
+Randomize Your Death Messages!
